@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tamil Sangam</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" >
+	<link href="css/font-awesome.min.css" rel="stylesheet" >
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/about.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+	<script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Favicon Link -->
+    <link rel="icon" href="img/svg/sangam_logo_lightgreen.png" type="image/x-icon">
+		<style>
+				.tiles-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 10px;
+            width: 100%;
+            /* max-width: 1200px; */
+        }
+        .tile {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .tile img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+        .tile:hover img {
+            transform: scale(1.1);
+        }
+        .tile-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+
+ <section id="header">
+	<div class="header-banner"></div>
+<nav class="navbar navbar-expand-md navbar-light pt-0 pb-0 bg_green" id="navbar_sticky">
+  <div class="container-xl">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	   <ul class="navbar-nav mb-0 ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+		 
+		<li class="nav-item">
+          <a class="nav-link" href="about.html">About </a>
+        </li>
+		
+		<li class="nav-item dropdown">
+          <a class="nav-link " href="gallery.html" >
+            Gallery
+          </a>
+
+        </li>
+		
+				<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Events
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon"><path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z" clip-rule="evenodd"></path></svg>
+          </a>
+					<ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="events.html"> Events</a></li>
+            <li><a class="dropdown-item border-0" href="events-photos.html"> Event Photos</a></li>
+					</ul>
+          
+        </li>
+
+
+		<li class="nav-item dropdown">
+          <a class="nav-link " href="team.html" >
+            Team
+          </a>
+
+        </li>
+				<li class="nav-item dropdown">
+					<a
+						class="nav-link"
+						href="membership.html"
+					>
+						Subscription
+								</a>
+
+				</li>
+				<li class="nav-item dropdown">
+					<a
+						class="nav-link"
+						href="sponsors.html"
+					>
+						Sponsors
+					</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a
+					  class="nav-link"
+					  href="schools.html"
+					>
+					  Schools
+					</a>
+				  </li>
+		<li class="nav-item dropdown">
+          <a class="nav-link " href="contact.html" >
+            Contact
+          </a>
+          
+        </li>
+      </ul>
+	   <ul class="navbar-nav mb-0 ms-auto">
+	      <li class="nav-item dropdown">
+
+          <ul class="dropdown-menu drop_1 drop_2 p-3" aria-labelledby="navbarDropdown">
+            <li>
+			  <div class="input-group border_1">
+				<input type="text" class="form-control border-0 rounded-0" placeholder="Search Here">
+				<span class="input-group-btn">
+
+				</span>
+		</div>
+			</li>
+          </ul>
+        </li>
+		<li class="nav-item">
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</section>
+
+<section id="center" class="center_o  p_3">
+   <div class="container-xl">
+	 <div class="row center_o1 text-center">
+		 <div class="col-md-12">
+		  <h1 class="font_60 d-inline-block me-3">Events  <span class="mx-2 text-muted fw-normal">|</span></h1>
+		  <h6 class="mb-0 col_green d-inline-block align-top"><a href="index.html">Home</a> <span class="mx-2 text-muted">/</span> Event Photos </h6>
+		 </div>
+	 </div>
+ </div>   
+</section>
+
+<!-- <div class="carousel">
+	<div class="carousel-images">
+			<img src="/img/svg/slide5.jpeg" alt="Image 1">
+			<img src="/img/svg/slide2.jpeg" alt="Image 1">
+			<img src="/img/svg/slide3.jpeg" alt="Image 1">
+			<img src="/img/svg/slide6.jpeg" alt="Image 1">
+			<img src="/img/svg/slide8.jpg" alt="Image 1">
+			<img src="/img/svg/slide14.jpg" alt="Image 2">
+			<img src="/img/svg/slide13.jpg" alt="Image 2">
+			<img src="https://via.placeholder.com/600x400?text=Image+3" alt="Image 3">
+	</div>
+	<div class="carousel-controls">
+			<button id="prevBtn">&lt;</button>
+			<button id="nextBtn">&gt;</button>
+	</div>
+</div> -->
+<!-- </section> -->
+<section id="serv_events" class="p_3 bg-light">
+	<div class="container-xl">
+<div class="tiles-container">
+	<div class="tile">
+			<img src="img/svg/slide12.jpg" alt="Tile 1">
+			<!-- <div class="tile-caption">Tile 1</div> -->
+	</div>
+	<div class="tile">
+			<img src="img/svg/slide14.jpg" alt="Tile 2">
+			<!-- <div class="tile-caption">Tile 2</div> -->
+	</div>
+	<div class="tile">
+			<img src="img/svg/slide3.jpeg" alt="Tile 3">
+			<!-- <div class="tile-caption">Tile 3</div> -->
+	</div>
+	<div class="tile">
+			<img src="img/svg/slide5.jpeg" alt="Tile 4">
+			<!-- <div class="tile-caption">Tile 4</div> -->
+	</div>
+	<div class="tile">
+			<img src="img/svg/slide11.jpg" alt="Tile 5">
+			<!-- <div class="tile-caption">Tile 5</div> -->
+	</div>
+	<div class="tile">
+		<img src="img/svg/slide6.jpeg" alt="Tile 5">
+		<!-- <div class="tile-caption">Tile 5</div> -->
+</div>
+<div class="tile">
+	<img src="img/svg/slide4.jpeg" alt="Tile 5">
+	<!-- <div class="tile-caption">Tile 5</div> -->
+</div>
+<div class="tile">
+	<img src="img/svg/slide9.jpg" alt="Tile 5">
+	<!-- <div class="tile-caption">Tile 5</div> -->
+</div>
+<div class="tile">
+	<img src="img/svg/slide7.jpg" alt="Tile 5">
+	<!-- <div class="tile-caption">Tile 5</div> -->
+</div>
+</div></div>
+</section>
+
+<section id="footer" class="bg-dark p_3 custom-bg">
+ <div class="container-xl">
+  <div class="row footer_1">
+ <div class="col-md-4">
+   <div class="footer_1l">
+     <h2 class="mb-3"><a class="text-black text-white  me-4" href="index.html">Greater Houston Tamil Sangam</a></h2>
+	 <p class="text-white-50">யாதும் ஊரே!  யாவரும் கேளிர்!</p>
+	
+	 <h6 class="mt-3"><a class="text-white-50" href="#"><i class="fa fa-envelope col_green me-1 fs-5 align-middle"></i> info@greaterhoustontamilsangam.org</a> </h6>
+	
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="footer_1m">
+     <h4 class="text-white">Discover</h4>
+	 <hr class="line">
+	 <div class="row footer_1mi">
+	  <div class="col-md-6">
+	    <div class="footer_1mil">
+				<div class="row footer_3ism">
+					<h6 class="col-md-12 col-6"><a class="text-white-50" href="about.html"><i class="fa fa-arrow-right me-1"></i>  About Us</a></h6>
+					<h6 class="col-md-12 col-6 mt-2"><a class="text-white-50" href="#"><i class="fa fa-arrow-right me-1"></i> Policy </a></h6>
+					<h6 class="col-md-12 col-6 mt-2"><a class="text-white-50" href="contact.html"> <i class="fa fa-arrow-right me-1"></i> Contact Us</a></h6>
+					
+			 </div>
+		</div>
+	  </div>
+	  <div class="col-md-6">
+	    <div class="footer_1mil">
+				<div class="row footer_3ism">
+				<h6 class="col-md-12 col-6 mt-2"><a class="text-white-50" href="membership.html"> <i class="fa fa-arrow-right me-1"></i>Subscription</a></h6>
+				<h6 class="col-md-12 col-6 mt-2"><a class="text-white-50" href="events.html"><i class="fa fa-arrow-right me-1"></i>Events</a></h6>
+			</div>
+		</div>
+	  </div>
+	 </div>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="footer_1r p-4 text-center rounded_30">
+
+	   <h6 class="mb-0 mt-3"><a class="button_1 d-block text-center rounded_30" href="membership.html">Subscribe Now</a></h6>
+
+   </div>
+ </div>
+</div>
+ </div>
+</section>
+
+<section id="footer_b" class="bg_green pt-3 pb-3">
+ <div class="container-xl">
+  <div class="row footer_b1">
+ <div class="col-md-8">
+   <div class="footer_b1l">
+     <p class="mb-0 text-white">@2024 Greater Houston Tamil Sangam | Design by BP tech</p>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="footer_b1r text-end">
+     <ul class="mb-0">
+	  <li class="d-inline-block ms-3">  <a class="text-white" href="#"> <i class="fa fa-facebook"></i></a></li>
+	  <li class="d-inline-block ms-3">  <a class="text-white" href="#"> <i class="fa fa-twitter"></i></a></li>
+	  <li class="d-inline-block ms-3">  <a class="text-white" href="#"> <i class="fa fa-instagram"></i></a></li>
+	  <li class="d-inline-block ms-3">  <a class="text-white" href="#"> <i class="fa fa-pinterest"></i></a></li>
+	</ul>
+   </div>
+ </div>
+</div>
+ </div>
+</section>
+<script>
+	const carouselImages = document.querySelector('.carousel-images');
+	const images = document.querySelectorAll('.carousel-images img');
+	const prevBtn = document.getElementById('prevBtn');
+	const nextBtn = document.getElementById('nextBtn');
+
+	let index = 0;
+
+	function updateCarousel() {
+			const width = images[index].clientWidth;
+			carouselImages.style.transform = `translateX(-${index * width}px)`;
+	}
+
+	nextBtn.addEventListener('click', () => {
+			index = (index + 1) % images.length;
+			updateCarousel();
+	});
+
+	prevBtn.addEventListener('click', () => {
+			index = (index - 1 + images.length) % images.length;
+			updateCarousel();
+	});
+
+	window.addEventListener('resize', updateCarousel);
+</script>
+<script>
+window.onscroll = function() {myFunction()};
+var navbar_sticky = document.getElementById("navbar_sticky");
+var sticky = navbar_sticky.offsetTop;
+var navbar_height = document.querySelector('.navbar').offsetHeight;
+function myFunction() {
+  if (window.pageYOffset >= sticky + navbar_height) {
+    navbar_sticky.classList.add("sticky")
+	document.body.style.paddingTop = navbar_height + 'px';
+  } else {
+    navbar_sticky.classList.remove("sticky");
+	document.body.style.paddingTop = '0'
+  }
+}
+</script>
+
+</body>
+
+
+</html>

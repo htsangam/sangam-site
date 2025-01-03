@@ -1,0 +1,102 @@
+
+
+/*********************about****************/
+.team_dt3l .progress-bar {
+background: #fafafa;
+border-radius: 5px;
+}
+.team_dt3l .progress {
+background-color: #44b10c;
+height: 6px;
+overflow: hidden;
+border-radius: 5px;
+}
+/*********************about_end****************/
+
+
+@media screen and (max-width : 767px){
+.about_o1m{
+margin-top:15px;
+margin-bottom:15px; 
+ }
+.about_o1l {
+text-align:center!important; 
+ }
+.about_o1l p{
+text-align:left; 
+ }
+.connect_1 {
+text-align:center;  
+ }
+.testim_1l p{
+text-align:left;  
+ }
+.testim_1r {
+text-align:left; 
+ }
+.testim_1r h2{
+text-align:center; 
+ }
+.serv_dt1l1il{
+margin-top:10px; 
+ }
+.serv_dt1r{
+margin-top:15px; 
+ }
+.serv_dt1r1  h4{
+text-align:center; 
+ }
+.team_dt1r{
+margin-top:15px;
+text-align:center; 
+ }
+.team_dt1r p{
+text-align:left; 
+ }
+.team_dt1r h5{
+text-align:left;
+font-size:14px; 
+ }
+.team_dt2  h2{
+text-align:center;  
+ }
+.team_dt3  h2{
+text-align:center;  
+ }
+.team_dt3r{
+margin-top:15px; 
+ }
+ }
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+
+ }
+ 
+@media (min-width:768px) and (max-width:991px) {
+.about_o1m img{
+min-height:300px; 
+ }
+.serv_dt1r1  .button_1{
+padding-left:15px;
+padding-right:15px; 
+ }
+.serv_dt1r1  .button_2{
+padding-left:15px;
+padding-right:15px; 
+ }
+.team_dt1r h5{
+font-size:16px; 
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1310px) {
+
+ }
+
+
+
